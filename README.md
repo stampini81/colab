@@ -1,6 +1,5 @@
-Claro! Aqui está um exemplo de arquivo **README.md** para o seu projeto, baseado no código que você enviou:
 
-````markdown
+
 # Projeto de Análise e Visualização de Dados com Python
 
 Este projeto demonstra um exemplo simples de manipulação, limpeza e visualização de dados usando Python com as bibliotecas **pandas** e **matplotlib**.
@@ -76,4 +75,3 @@ Leandro da Silva Stampini
 ---
 
 
-```
