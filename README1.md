@@ -1,13 +1,9 @@
-Com certeza! Vou compilar todos os passos e códigos em um arquivo Markdown completo, organizado por cada conjunto de dados e apresentação, incluindo o passo final de suavização de dados.
 
-Você pode copiar e colar o conteúdo abaixo diretamente em um arquivo `.md` ou em uma célula Markdown em um notebook Colab/Jupyter.
-
-```markdown
 # Análise de Dados com Pandas e Visualização
 
 Este documento detalha o processo de análise de dados realizado utilizando a biblioteca Pandas para manipulação e Matplotlib/Plotly para visualização em Python. O fluxo de trabalho é guiado pelos arquivos de apresentação fornecidos e dividido em três seções principais, cada uma focada em um conjunto de dados específico.
 
----
+
 
 ## 1. Análise de Aplicativos da Google Play Store (`apps.csv`)
 
@@ -376,9 +372,9 @@ plt.legend(roll_df.columns, fontsize=12)
 plt.show()
 ```
 
----
+
 
 ## Conclusão
 
 Este notebook detalhou um fluxo de trabalho completo de análise de dados, desde o carregamento e a limpeza até a transformação e a visualização, utilizando as bibliotecas Pandas, Matplotlib e Plotly em Python. Abordamos a manipulação de diferentes tipos de dados (categóricos, relacionais e séries temporais) e aplicamos técnicas essenciais como remoção de duplicatas, conversão de tipos, junção de tabelas e suavização de séries temporais para extrair insights significativos dos dados.
-```
+
