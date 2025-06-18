@@ -1,0 +1,11 @@
+from sklearn.model_selection import train_test_split # Biblioteca para separação de amostras para treino e teste, curva de aprendizagem do treinamento e para processar a validação cruzada
+from sklearn.neural_network import MLPRegressor # Biblioteca para utilização do Regressor MLP
+from sklearn.preprocessing import StandardScaler, MinMaxScaler # Biblioteca utilizada para normalização dos dados
+from sklearn.pipeline import Pipeline # Biblioteca para organização de ações em sequência
+from sklearn import metrics # Biblioteca para avaliação das métricas no modelo
+import matplotlib.pyplot as plt # Para visualizacao dos dados por meio de gráfico
+import numpy as np # Biblioteca de manipulação de arrays Numpy
+import pandas as pd # Biblioteca para manipulação de dados, aqui especificamente para importação e manipulação inicial do dataset
+from google.colab import drive # Biblioteca para interação do colab com o drive
+drive.mount('/content/drive') # Montando o Google Drive na mesma conta do Google Colab
+import seaborn as sns # Seaborn é uma biblioteca de visualização de dados Python baseada em matplotlib.

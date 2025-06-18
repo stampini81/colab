@@ -1,0 +1,10 @@
+from sklearn import preprocessing # biblioteca para suporte ao pré-processamento
+from sklearn.model_selection import train_test_split # biblioteca para separação de amostras para treino e teste
+from sklearn.linear_model import Perceptron # biblioteca com funções para a execução da RNA Perceptron
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn import metrics # biblioteca para obtenção de métricas para avaliação dos modelos
+import matplotlib.pyplot as plt # biblioteca para plotar gráfico
+import numpy as np
+import pandas as pd
+import random # biblioteca aplicada na geração de números randômicos
+from google.colab import drive

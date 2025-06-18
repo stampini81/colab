@@ -1,0 +1,30 @@
+# Variáveis que armazenam os valores máximos para normalização manual na validação individual
+maxXRenda = X[1:,0].max()
+maxXDivida = X[1:,1].max()
+
+# Teste individual de amostras
+# Teste individual de amostras
+rendaA = 5000
+dividaA = 500
+rendaB = 3000
+dividaB = 500
+
+# Normalizando manualmente amostras isoladas
+rendaA = rendaA/maxXRenda
+rendaB = rendaB/maxXRenda
+dividaA = dividaA/maxXDivida
+dividaB = dividaB/maxXDivida
+
+print([rendaA, dividaA])
+
+A = np.array([rendaA, dividaA]) # Padrão correto = 1
+A_y = np.array([1])
+B = np.array([rendaB, dividaB]) # Padrão correto = -1
+B_y = np.array([1])
+
+prediction_A = p.predict([A])
+prediction_B = p.predict([B])
+score_A = accuracy_score(prediction_A, A_y)
+print("Acurácia com dados de A: ", score_A)
+score_B = accuracy_score(prediction_B, B_y)
+print("Acurária com dados de B: ", score_B)0
